@@ -1,0 +1,22 @@
+
+.brand{
+display: block;
+max-width:230px;
+max-height:95px;
+width: auto;
+height: auto;
+}
+.nav-link{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+}
+#footer{
+
+  background-color: #5d5d5a;
+  padding: 0.7%;
+  text-align: center;
+  color: white;
+}
+.foot{
+  min-height: 100%;
+}
