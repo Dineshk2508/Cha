@@ -17,6 +17,9 @@ height: auto;
   text-align: center;
   color: white;
 }
+.social-icon {
+  margin: 20px 10px;
+}
 .foot{
   min-height: 100%;
 }
