@@ -1,0 +1,143 @@
+.header{
+background-image: url("../Images/title3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding:8%;
+background-position: center;
+max-width: 100%;
+height: auto;
+top: -20px;
+}
+.brand{
+display: block;
+max-width:230px;
+max-height:95px;
+width: auto;
+height: auto;
+}
+.header_content{
+  display: inline-block;
+  background-color: #405081;
+  opacity: 0.6;
+  width: 50rem;
+  padding: 2%;
+}
+.heading{
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  font-size: 5rem;
+}
+.heading_subtext{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  color: #fff;
+}
+.nav-link{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+}
+#about_us{
+  padding: 3% 15%
+}
+#members{
+  padding: 5% 15%;
+  background-color: #f4f3f3;
+}
+
+.about_us_content{
+  color: #2b2726;
+  text-align: left;
+  text-indent: inherit;
+
+}
+.headerforcontent{
+
+  align-items:center;
+  color: #405081;
+  font-family: 'Merriweather', serif;
+}
+.headerforcontent_welcome{
+
+  align-items:center;
+  font-family: 'Merriweather', serif;
+  color: #ff8a06;
+}
+.member_header{
+  color: #405081;
+  font-family: 'Merriweather', serif;
+}
+.member_col_header{
+  vertical-align: middle;
+  margin: auto;
+}
+.about_us_header{
+
+  margin: auto;
+  vertical-align: middle;
+
+}
+.carousel{
+
+  text-align: center;
+
+}
+.img_member{
+  border-radius: 100%;
+  padding: 2% 4%
+}
+.member_name{
+  color: #808080;
+}
+.member_name_postion{
+  color: #808080;
+  text-align: center;
+}
+
+#latest_news{
+  padding: 3% 12%
+}
+.lastest_news_header{
+  text-align: center;
+  color: #405081;
+  font-family: 'Merriweather', serif;
+  padding: 3%;
+}
+.news_div{
+  padding: 3%;
+}
+.card{
+  padding: 3% 5%;
+  text-align: center;
+  margin: auto;
+  vertical-align: middle;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+#footer{
+  background-color: #5d5d5a;
+  padding: 0.7%;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 1028px) {
+  .headerforcontent{
+    position: static;
+  text-align: center;
+  }
+  .headerforcontent_welcome{
+    position: static;
+  text-align: center;
+  }
+  .member_header{
+    position: static;
+  text-align: center;
+  }
+  .header_content{
+    width: auto;
+    padding: inherit;
+  }
+  #about_us{
+    padding: 4% 15%;
+  }
+}
